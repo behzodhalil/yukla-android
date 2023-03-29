@@ -46,7 +46,7 @@ private fun TopHome() {
         .padding(start = 16.dp, top = 16.dp)
         .size(size = 48.dp),
       shape = RoundedCornerShape(16),
-      elevation = 2.dp,
+      elevation = 2.dp
     ) {
       Image(
         painter = painterResource(id = R.drawable.ic_settings),
@@ -64,7 +64,7 @@ private fun TopHome() {
         .padding(start = 24.dp, top = 24.dp)
         .size(size = 48.dp),
       shape = RoundedCornerShape(16),
-      elevation = 2.dp,
+      elevation = 2.dp
     ) {
       Image(
         painter = painterResource(id = R.drawable.ic_menu),
@@ -74,7 +74,6 @@ private fun TopHome() {
         colorFilter = ColorFilter.tint(color = Color.DarkGray)
       )
     }
-
   }
 }
 
@@ -82,24 +81,25 @@ private fun TopHome() {
 private fun TitleHome(modifier: Modifier = Modifier) {
   Column(modifier = modifier.padding(start = 24.dp, top = 16.dp)) {
     Text(
-      text = "Yukla", color = Color.White, fontSize = 24.sp,
+      text = "Yukla",
+      color = Color.White,
+      fontSize = 24.sp,
       fontFamily = poppins,
-      fontWeight = FontWeight.Normal,
+      fontWeight = FontWeight.Normal
     )
 
     Text(
-      text = "a downloader app for images and videos", color = Color.White, fontSize = 16.sp,
+      text = "a downloader app for images and videos",
+      color = Color.White,
+      fontSize = 16.sp,
       fontFamily = poppins,
-      fontWeight = FontWeight.Normal,
+      fontWeight = FontWeight.Normal
     )
-
   }
-
 }
 
 @Composable
 private fun LinkUi() {
-
 }
 
 @Preview
