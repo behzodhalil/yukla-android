@@ -21,4 +21,10 @@
 
 ### UI
 - [Compose](https://developer.android.com/jetpack/compose)
+
+### Tools (CI/CD)
+- Github Actions
+- Ktlint
+- Spotless
+
 </div>
