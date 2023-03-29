@@ -3,6 +3,8 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 
+apply from: "${rootDir}/spotless/spotless.gradle"
+
 android {
     compileSdk 33
 
