@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="supports_multiple_source">Supports multiple Source</string>
+  <string name="get_started">Get Started</string>
+  <string name="very_fast_and_free">Very fast and 100% free</string>
+  <string name="downloads">Downloads</string>
+  <string name="download">Download</string>
+  <string name="cancel">Cancel</string>
+  <string name="history_by_applications">History By Applications</string>
+  <string name="storage_folder">Storage Folder</string>
+  <string name="files">Files</string>
+  <string name="dark_mode">Dark Mode</string>
+  <string name="theme_for_this_app">Theme for this app</string>
+  <string name="security_access">Security Access</string>
+</resources>

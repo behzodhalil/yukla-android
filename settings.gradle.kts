@@ -17,3 +17,8 @@ dependencyResolutionManagement {
 rootProject.name = "Yukla"
 include(":app")
 include(":data")
+include(":features")
+include(":features:splash")
+include(":features:downloader")
+include(":core")
+include(":core:ui-components")
