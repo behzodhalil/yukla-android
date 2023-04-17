@@ -27,4 +27,8 @@
 - Ktlint
 - Spotless
 
+### Others (Gradle/Kotlin DSL)
+- Version Catalog
+- Convenient Plugin
+
 </div>
