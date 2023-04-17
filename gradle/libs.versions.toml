@@ -1,0 +1,38 @@
+[versions]
+androidx-core = "1.9.0"
+androidx-appcompat = "1.5.1"
+kotlin = "1.8.0"
+kotlinx-serialization = "1.4.1"
+hilt = "2.44"
+room = "2.5.5"
+coroutines = "1.6.4"
+retrofit = "2.9.0"
+retrofit-kotlinx-serialization = "0.8.0"
+android-gradle-plugin = "7.4.1"
+ksp = "1.8.0-1.0.9"
+android-desugar-jdklibs = "1.2.2"
+
+[libraries]
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version = "androidx-appcompat" }
+androidx-core = { module = "androidx.core:core-ktx", version = "androidx-core" }
+android-desugar-jdklibs = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "android-desugar-jdklibs" }
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version = "kotlin" }
+kotlinx-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version = "kotlinx-serialization" }
+hilt = { module = "com.google.dagger:hilt-android", version = "hilt" }
+hilt-compiler = { module = "com.google.dagger:hilt-android-compiler", version = "hilt" }
+room-ktx = { module = "androidx.room:room-ktx", version = "room" }
+room-compiler = { module = "androidx.room:room-compiler", version = "room" }
+room-runtime = { module = "androidx.room:room-runtime", version = "room" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version = "retrofit" }
+retrofit-kotlinx-serialization = { module = "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter", version = "retrofit-kotlinx-serialization" }
+
+plugin-gradle-android = { group = "com.android.tools.build", name = "gradle", version.ref = "android-gradle-plugin" }
+plugin-gradle-kotlin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "android-gradle-plugin" }
+android-library = { id = "com.android.library", version.ref = "android-gradle-plugin" }
+android-test = { id = "com.android.test", version.ref = "android-gradle-plugin" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
