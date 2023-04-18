@@ -6,10 +6,13 @@
   <string name="downloads">Downloads</string>
   <string name="download">Download</string>
   <string name="cancel">Cancel</string>
+  <string name="paste">Paste</string>
+  <string name="category_button">Category Button</string>
   <string name="history_by_applications">History By Applications</string>
   <string name="storage_folder">Storage Folder</string>
   <string name="files">Files</string>
   <string name="dark_mode">Dark Mode</string>
   <string name="theme_for_this_app">Theme for this app</string>
   <string name="security_access">Security Access</string>
+  <string name="paste_post_link_here">Paste post link here</string>
 </resources>
