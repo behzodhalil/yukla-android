@@ -29,6 +29,6 @@
 
 ### Others (Gradle/Kotlin DSL)
 - Version Catalog
-- Convenient Plugin
+- Convention Plugin
 
 </div>
