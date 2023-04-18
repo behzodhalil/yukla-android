@@ -2,7 +2,6 @@
 <resources>
   <string name="supports_multiple_source">Supports multiple Source</string>
   <string name="get_started">Get Started</string>
-  <string name="very_fast_and_free">Very fast and 100% free</string>
   <string name="downloads">Downloads</string>
   <string name="download">Download</string>
   <string name="cancel">Cancel</string>
