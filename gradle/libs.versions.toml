@@ -14,6 +14,7 @@ retrofit-kotlinx-serialization = "0.8.0"
 android-gradle-plugin = "7.4.1"
 ksp = "1.8.0-1.0.9"
 android-desugar-jdklibs = "1.2.2"
+material-3 = "1.1.0-alpha07"
 
 [libraries]
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version = "androidx-appcompat" }
@@ -22,7 +23,8 @@ androidx-compose-ui = { module = "androidx.compose.ui:ui", version = "compose" }
 androidx-compose-tooling = { module = "androidx.compose.ui:ui-tooling", version = "compose" }
 androidx-compose-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version = "compose" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version = "compose-activity" }
-androidx-material-compose = { module = "androidx.compose.material:material", version = "compose"}
+androidx-material-compose = { module = "androidx.compose.material:material", version = "compose" }
+androidx-material3-compose = { module = "androidx.compose.material3:material3", version = "material-3" }
 lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
 android-desugar-jdklibs = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "android-desugar-jdklibs" }
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version = "kotlin" }
