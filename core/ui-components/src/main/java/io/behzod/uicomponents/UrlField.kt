@@ -39,7 +39,6 @@ fun UrlField(
   TextField(
     value = url,
     modifier = modifier
-      .fillMaxWidth()
       .background(shape = RoundedCornerShape(10.dp), color = Color(0xff4e3d71))
       .border(width = 0.dp, color = Color(0xff4e3d71), shape = RoundedCornerShape(10.dp))
       .focusRequester(focusRequester),
