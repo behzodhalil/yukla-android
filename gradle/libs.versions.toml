@@ -5,7 +5,7 @@ lifecycle-runtime-ktx = "2.6.1"
 compose = "1.4.1"
 compose-activity = "1.7.0"
 kotlin = "1.8.0"
-kotlinx-serialization = "1.4.1"
+kotlinx-serialization = "1.5.0"
 hilt = "2.44"
 room = "2.5.5"
 coroutines = "1.6.4"
@@ -15,6 +15,7 @@ android-gradle-plugin = "7.4.1"
 ksp = "1.8.0-1.0.9"
 android-desugar-jdklibs = "1.2.2"
 material-3 = "1.1.0-alpha07"
+youtubedl = "0.13.2"
 
 [libraries]
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version = "androidx-appcompat" }
@@ -36,7 +37,9 @@ room-compiler = { module = "androidx.room:room-compiler", version = "room" }
 room-runtime = { module = "androidx.room:room-runtime", version = "room" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version = "retrofit" }
 retrofit-kotlinx-serialization = { module = "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter", version = "retrofit-kotlinx-serialization" }
-
+youtubedl-android = { module = "com.github.yausername.youtubedl-android:library", version.ref = "youtubedl" }
+youtubedl-android-ffmpeg = { module = "com.github.yausername.youtubedl-android:ffmpeg", version.ref = "youtubedl" }
+youtubedl-android-aria2c = { module = "com.github.yausername.youtubedl-android:aria2c", version.ref = "youtubedl" }
 plugin-gradle-android = { group = "com.android.tools.build", name = "gradle", version.ref = "android-gradle-plugin" }
 plugin-gradle-kotlin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
 
