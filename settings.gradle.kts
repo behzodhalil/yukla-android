@@ -3,6 +3,7 @@ pluginManagement {
     includeBuild("build-logic")
     gradlePluginPortal()
     google()
+    maven("https://jitpack.io")
     mavenCentral()
   }
   enableFeaturePreview("VERSION_CATALOGS")
@@ -11,6 +12,7 @@ dependencyResolutionManagement {
   repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
   repositories {
     google()
+    maven("https://jitpack.io")
     mavenCentral()
   }
 }
